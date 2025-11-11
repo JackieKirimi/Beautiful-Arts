@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beau-Arts</title>
+    <link rel="stylesheet" href="assets/style/css/main.min.css">
+    <link rel="shortcut icon" href="assets/svg/logo.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        #home {
+            background-image: url("assets/images/museum_art.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #gallery {
+            background-image: url(https://images.pexels.com/photos/2372979/pexels-photo-2372979.jpeg?_gl=1*1nz2cg6*_ga*MTI1MTk3MzM4MC4xNzYxODQzNzc2*_ga_8JE65Q40S6*czE3NjI3MDc0NjkkbzEzJGcxJHQxNzYyNzA4ODkxJGo0MSRsMCRoMA..);
+            height: 140vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .carousel-item>img {
+            height: 35rem;
+            object-fit: cover;
+
+        }
+
+        .card-img-top {
+            max-height: 150px;
+            object-fit: contain;
+            padding: 1rem;
+        }
+
+        #about-us {
+            background-image: url(https://images.pexels.com/photos/3779198/pexels-photo-3779198.jpeg?_gl=1*1cobq54*_ga*MTI1MTk3MzM4MC4xNzYxODQzNzc2*_ga_8JE65Q40S6*czE3NjI3NzM4MTQkbzE2JGcxJHQxNzYyNzc2NTM1JGo0MyRsMCRoMA..);
+            height: 120vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="min-vh-100">
+    <!--  navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-primary position-relative z-3">
+        <div class="container py-4">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/svg/logo.svg" alt="logo" class="img-fluid me-4" width="40" rcset="">
+            </a>
+            <button class="navbar-toggler bg-warning  rounded-5 border-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            more
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#sponsorship">Sponsorship</a></li>
+                            <li><a class="dropdown-item" href="#about-us">About US</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#contact-us">Contact US</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 rounded-5" type="search" placeholder=" Find art..."
+                        aria-label="Search" />
+                    <button class="btn btn-outline-warning rounded-5 px-4 py-2" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section -->
+
+    <section id="home" class="min-vh-100">
+        <div class="position-absolute top-0 start-0 w-100 vh-100 bg-primary opacity-50 z-1"></div>
+        <div class="position-relative py-5 z-3">
+            <div class="container p-5">
+                <h1 class="display-1 fw-bold text-warning">Beautiful Arts Gallery</h1>
+                <h3 class="display-6 text-warning">Museum of Arts</h3>
+                <h5 class="fs-6 text-warning">a blend of modernand midevil ages</h5>
+                <p class="lead fs-2 fw-lighter text-light mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Beatae quaerat
+                    ad optio sapiente itaque?
+                    Vel delectus quisquam, impedit distinctio ea harum alias totam mollitia. Expedita quaerat nostrum
+                    aut in vitae!</p>
+
+                <button type="button" class="btn  btn-lg btn-warning mt-4"> support us </button>
+            </div>
+
+        </div>
+    </section>
+<br><br>
+
+    <section id="gallery">
+        <div class="container py-5">
+            <div class=" bg-white rounded-5 px-4 py-3 ">
+                <h1 class="display-1 fw-bold text-warning">Gallery</h1>
+                <div class="lead text-warning fst-italic px-2">Our Arts Gallery</div>
+            </div>
+
+            <div id="carouselExampleAutoplaying" class="carousel slide py-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets\art-workshop3.jpg"
+                            class="img-fluid w-100 rounded-4 p-3 shadow-sm border border-warning"
+                            alt="a art work collection">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-light fs-6  bg-warning text-dark rounded-4 px-2 py-1">Sip. Savor. See</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets\art-workshop2.jpg"
+                            class="img-fluid w-100 rounded-4 p-3 shadow-sm border border-warning" alt="art lab">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-light fs-6  bg-warning text-dark rounded-4 px-2 py-1">Portraits of Purpose</h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets\arts-workshop.jpg"
+                            class="img-fluid w-100 rounded-4 p-3 shadow-sm border border-warning" alt="art work">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-light fs-6  bg-warning text-dark rounded-4 px-2 py-1">A Brushstroke that tells a Story</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets\arts-workshop3.jpg"
+                            class="img-fluid w-100 rounded-4 p-3 shadow-sm border border-warning" alt="art work">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-light fs-6  bg-warning text-dark rounded-4 px-2 py-1">Imagination unleashed through paint</h5>
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="sponsorship" class="bg-warning-subtle my-5 py-5">
+        <div class="container py-5 bg-warning-subtle text-center">
+            <h1 class="text-primary fw-bold display-3 mt-4">Sponsorship</h1>
+            <p class="lead text-warning fw-semi-bold  py-2 mb-5">Our top sponsers who have helped us host exhibitions, support artists, and expand
+                access to art education.</p>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between px-4 px-md-5">
+            <!--card 1-->
+            <div class="card" style="width: 20rem; ">
+                <img src="https://basa.co.za/wp-content/uploads/2023/10/August-Creative-768x768.png"
+                    class="img-fluid w-50 rounded-5 p-2" style="height: 10rem;" alt="basa  ">
+                <div class="card-body">
+                    <h5 class="card-title fs-3 fw-bold text-warning">Bussiness and arts</h5>
+                    <p class="card-text lead fs-6">A platform for contemporary African art and cultural exchange programs.
+                    </p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+            <!--card 2-->
+            <div class="card" style="width: 20rem; height:auto ">
+                <img src="data:image/png;base64,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"
+                    class="card-img-top img-fluid object-fit-cover" style="height:10rem;" alt="pawa254 ">
+                <div class="card-body">
+                    <h5 class="card-title fs-3 fw-bold text-warning">Pawa 254</h5>
+                    <p class="card-text lead fs-6">Connecting creativity with funding and sponsorship opportunities in Kenya.
+                    </p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+            <!--card 3-->
+            <div class="card" style="width: 20rem; ">
+                <img src="https://www.mediamatic.net/image/2017/2/22/picture_3-398326271.png%28%29%28485C29B76C7B4E65CC1ABBAB643E2CC4%29.jpg"
+                    class="card-img-top img-fluid object-fit-cover" style="height:10rem;" alt="kuona trust ">
+                <div class="card-body">
+                    <h5 class="card-title fs-3 fw-bold text-warning">Kuona Trust</h5>
+                    <p class="card-text lead fs-6">Empowering visual artists across Kenya through mentorship and
+                        exhibitions
+                    </p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    
+    <section id="about-us" class="py-5">
+        <div class="position-relative py-5 z-3"></div>
+        <div class="container py-4">
+            <div class="position-absolute top-0 start-0 w-100 vh-100 bg-primary opacity-50 z-1"></div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="text-warning fw-bold mb-3">About Our Gallery</h2>
+                    <p class="lead fs-4 text-primary fw-semi-bold">
+                        We are a community-driven art gallery dedicated to showcasing emerging and established artists
+                        from Kenya and beyond. Our mission is to make art accessible, foster creativity, and support
+                        cultural expression through exhibitions, workshops, and scholarships.
+                    </p>
+                    <ul class="list-unstyled text-primary fw-semi-bold mb-3">
+                        <li> Monthly exhibitions and artist showcases</li>
+                        <li> Sponsored programs for young creatives</li>
+                        <li>Art education and scholarship initiatives</li>
+                    </ul>
+                    <a href="#" class="btn btn-warning mt-4 rounded-pill px-4 py-2">Become part of us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="py-5 bg-warning-subtle">
+        <div class="container">
+            <h2 class="text-center text-primary fw-bold mb-4">Contact Us</h2>
+            <p class="text-center text-primary fs-semi-bold mb-4">We’d love to hear from you! Whether you’re an artist, sponsor, or
+                visitor — reach out anytime.</p>
+
+            <form class="row g-3 mb-5">
+                <div class="col-md-6 text-primary fs-semibold" >
+                    <label for="contactName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control rounded-4" id="contactName" placeholder="Jackie Kirimi" required>
+                </div>
+
+                <div class="col-md-6 text-primary fs-semibold">
+                    <label for="contactEmail" class="form-label">Email Address</label>
+                    <input type="email" class="form-control rounded-4" id="contactEmail" placeholder="jackie254@example.com"
+                        required>
+                </div>
+                <div class="col-12 text-primary fs-semibold">
+                    <label for="contactMessage" class="form-label">Message</label>
+                    <textarea class="form-control rounded-4" id="contactMessage" rows="5"
+                        placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-warning px-5 py-2 rounded-pill">Send Message</button>
+                </div>
+            </form>
+
+            <!-- Contact Info and Social Links -->
+            <div class="text-center">
+                <p class="mb-1"><strong>Email:</strong> info@ourartsgallery.com</p>
+                <p class="mb-4"><strong>Phone:</strong> +254 742252718</p>
+
+                <div class="d-flex justify-content-center gap-4">
+                    <a href="https://www.facebook.com/ourartsgallery" target="_blank"
+                        class="text-decoration-none text-primary"> Facebook</a>
+                    
+                    <a href="https://www.instagram.com/yourgallery" target="_blank"
+                        class="text-decoration-none text-danger"> Instagram </a>
+                    
+                    <a href="https://www.linkedin.com/company/yourgallery" target="_blank"
+                        class="text-decoration-none text-info"> LinkedIn</a>
+                    
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
