@@ -11,7 +11,7 @@
     "url": "git+https://github.com/JackieKirimi/Beautiful-Arts.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Jackline Kirimi",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
